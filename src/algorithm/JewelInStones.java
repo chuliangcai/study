@@ -10,11 +10,11 @@ public class JewelInStones {
         System.out.println(JewelInStones.numJewelsInStones("aA", "aAAbbbb"));
     }
 
-    private static int numJewelsInStones(String J, String S) {
+    private static int numJewelsInStones(String j, String s) {
 
         int num = 0;
-        for (char a : S.toCharArray()) {
-            if (J.indexOf(a) >= 0) {
+        for (char a : s.toCharArray()) {
+            if (j.indexOf(a) >= 0) {
                 num++;
             }
 
