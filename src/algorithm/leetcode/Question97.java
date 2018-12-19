@@ -1,15 +1,11 @@
 package algorithm.leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class Question97 {
 
     public static void main(String[] args) {
-
-        System.out.println(isInterleave("aabcc","dbbca","aadbbcbcac"));
-
+        System.out.println(isInterleave("aabcc", "dbbca", "aadbbcbcac"));
     }
 
     //s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
@@ -47,6 +43,6 @@ public class Question97 {
                 }
             }
         }
-        return idx1 == (s1.length() - 1) && (idx2 == s2.length() - 1);
+        return idx1 == s1.length() && idx2 == s2.length();
     }
 }
