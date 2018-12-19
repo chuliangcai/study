@@ -1,12 +1,9 @@
-package algorithm.leetcode.BinaryWatch;
+package algorithm.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * https://leetcode.com/problems/binary-watch/
- */
-public class Solution1 {
+public class Question401 {
 
     public List<String> readBinaryWatch(int num) {
 
@@ -28,5 +25,4 @@ public class Solution1 {
         return times;
 
     }
-
 }
